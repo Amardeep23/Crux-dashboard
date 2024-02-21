@@ -1,0 +1,98 @@
+.DashboardNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 3vw;
+    right: 0;
+    z-index: 100;
+    height: 2.9rem;
+    width: 95vw;
+    border: 0px, 0px, 1px, 0px solid #E4E4E7;
+}
+.DashboardNav-child-left{
+    display: flex;
+    align-items: center;
+}
+.DashboardNav-child-left-icon{
+    font-size: 1.5rem;
+    margin-right: 20px;
+}
+.DashboardNav-child-left-pages{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.DashboardNav-child-left-pages-child-{
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 0.5px solid #47474736;
+    cursor: pointer;
+    font-size: 0.9rem;
+    min-width: 127px;
+    width: 127px;
+    height: 33px;
+    color: #8D8D8D;
+    font-family: Inter;
+}
+.DashboardNav-child-left-pages-child-active{
+    background-color: #E0DFF8;
+    border: 1px solid #E0DFF8;
+    cursor: pointer;
+    color: #5E5ADB;
+    font-size: 0.9rem;
+    min-width: 127px;
+    width: 127px;
+    height: 33px;
+    font-family: Inter;
+    border-radius: 10px;
+}
+.DashboardNav-child-left-addPages button{
+    background-color: #ffffff;
+    border: none;
+}
+.DashboardNav-child-left-addPages button:hover{
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+.temp{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+.close-page{
+    font-size: 20px;
+    color: #8D8D8D;
+    cursor: pointer;
+    position: absolute;
+    left: 92%;
+    bottom: 50%;
+    z-index: 1000;
+}
+.hover-red:hover {
+    fill: red;
+  }
+button{
+    background-color: #ffffff;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+    border: none;
+}
+.DashboardNav-child-left-addPages img{
+    margin-right: 10px;
+    margin-top: 0.2rem;
+}
+.DashboardNav-child-right{
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}

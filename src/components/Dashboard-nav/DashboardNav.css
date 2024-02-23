@@ -66,6 +66,7 @@
     align-items: center;
     justify-content: space-around;
     position: relative;
+    margin-right: 0.3rem;
 }
 .close-page{
     font-size: 20px;

@@ -1,0 +1,16 @@
+.Pie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+}
+#Pie-white {
+    background-color: rgb(255, 255, 255);
+}
+#Pie-black {
+    background-color: #282828;
+}
+#Pie-blue {
+    background-color: #5E5ADB;
+}

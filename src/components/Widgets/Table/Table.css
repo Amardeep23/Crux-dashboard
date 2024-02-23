@@ -1,0 +1,92 @@
+#table-white .ant-table-body{
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+    background-color: #F4F4FF;
+    box-shadow: 0px 0px 6px 0px hsla(0, 0%, 0%, 0.1);
+    background: hsla(0, 0%, 100%, 1);
+    color: #474747A6;
+    padding-left: 2px;
+}
+#table-black .ant-table-body{
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+    background-color: #000000;
+    box-shadow: 0px 0px 6px 0px hsla(0, 0%, 0%, 0.1);
+    background: #282828;
+    padding-left: 2px;
+    color: #ffffff;
+}
+
+#table-blue .ant-table-body {
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+    background-color: #5E5ADB;
+    box-shadow: 0px 0px 6px 0px hsla(0, 0%, 0%, 0.1);
+    background: #5E5ADB;
+    padding-left: 2px;
+    color: #ffffffe9;
+}
+
+#table-white .ant-table-wrapper.ant-table-pagination.ant-pagination{
+    background-color: #fff;
+}
+
+#table-black .ant-table-wrapper.ant-table-pagination.ant-pagination{
+    background-color: #282828!important;
+}
+
+#table-blue .ant-pagination .ant-pagination-item-active a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+#table-blue .ant-pagination-item ant-pagination-item-1 ant-pagination-item-active a{
+  background-color: #5E5ADB;
+  color: #ff1515;
+}
+
+.ant-table-thead{
+  white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.ant-table-wrapper .ant-table-tbody .ant-table-row{
+    text-align: center;
+    font-size: 0.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.ant-pagination-disabled, .ant-pagination-prev, .ant-pagination-next {
+    pointer-events: none;
+    opacity: 0;
+    display: none;
+  }
+
+  
+  .ant-table-body::-webkit-scrollbar {
+    width: 5px;
+    background-color: #ffffff;
+  }
+  .ant-table-body::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  .ant-table-body::-webkit-scrollbar-track {
+    background-color: #ffffff;
+  }
+  .ant-table-body::-webkit-scrollbar-thumb:hover {
+    background-color: #ffffff;
+  }
+  .ant-table-body::-webkit-scrollbar-thumb:active {
+    background-color: #ffffff;
+  }
+  .ant-table-body::-webkit-scrollbar-thumb:window-inactive {
+    background-color: #ddd6d6;
+  }
+  .ant-table-body::-webkit-scrollbar-thumb:horizontal {
+    background-color: #ffffff;
+  }
+  

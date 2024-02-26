@@ -7,4 +7,44 @@
     border-radius: 10px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     position: relative;
+    font-size: 4rem!important;
 }
+
+#Histogram-black .MuiChartsAxis-line{
+    stroke: #e1e1e1!important;
+}
+#Histogram-blue .MuiChartsAxis-line{
+    stroke: #e1e1e1!important;
+}
+#Histogram-black .MuiChartsAxis-tickContainer{
+    stroke: #e1e1e1!important;
+}
+
+#Histogram-blue .MuiChartsAxis-tickContainer{
+    stroke: #e1e1e1!important;
+}
+#Histogram-black .MuiChartsAxis-tickLabel .MuiChartsAxis-tickLabel{
+    fill: #e1e1e1!important;
+    font: 10px!important;
+}
+#HistogramTitle-blue {
+    border-bottom: #e1e1e1 solid 0.5px;
+    color: #e1e1e1;
+  }
+  #HistogramTitle-white {
+    border-bottom: #E1E1E1 solid 0.5px;
+    color: #5E5ADB;
+  }
+  #HistogramTitle-black {
+    border-bottom: #e1e1e1 solid 0.5px;
+    color: #e1e1e1;
+  }
+  #Histogram-white {
+    background-color: rgb(255, 255, 255);
+  }
+  #Histogram-black {
+    background-color: #282828;
+  }
+  #Histogram-blue {
+    background-color: #5e5adb;
+  }

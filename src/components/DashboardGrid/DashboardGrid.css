@@ -1,10 +1,11 @@
- .DashboardGrid {
+.DashboardGrid {
   display: flex;
   background-color: #F4F4FF;
   width: 92vw;
   transform: translate(1.6%, 3.9%);
   height: 87vh;
 }
+
 .DashboardGrid-inner {
   overflow-y: scroll;
   height: 100%;
@@ -17,6 +18,53 @@
   grid-auto-flow: dense;
 }
 
+@media (max-width: 1360px) {
+  .DashboardGrid-inner {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+@media (max-width: 1115px) {
+  .DashboardGrid{
+    width: 90vw;
+    transform: translate(2.9%, 3.9%);
+  }
+  .DashboardGrid-inner {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (max-width: 880px) {
+  .DashboardGrid{
+    width: 85vw;
+    transform: translate(3%, 3.9%);
+  }
+  .DashboardGrid-inner {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 650px) {
+
+  .DashboardGrid{
+    width: 85vw;
+    transform: translate(5%, 3.9%);
+  }
+
+  .DashboardGrid-inner {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 470px) {
+
+  .DashboardGrid{
+    width: 80vw;
+    transform: translate(5%, 3.9%);
+  }
+
+  .DashboardGrid-inner {
+      grid-template-columns: repeat(1, 1fr);
+    }
+}
+
 .pie-smallWH{
     background-color:  #F4F4F4;
 }
@@ -25,19 +73,19 @@
 }
 
 .line-medH{
-    background-color: #e97989;
+    background-color:  #F4F4F4;
     grid-row-end: span 2;
 }
 .line-longH{
-    background-color: aqua;
+    background-color:  #F4F4F4;
     grid-row-end: span 3;
 }
 
 .hist-smallWH{
-    background-color: #fff700;
+    background-color: #F4F4F4;
 }
 .hist-medH{
-    background-color: #0ae6b6;
+    background-color:  #F4F4F4;
     grid-row-end: span 2;
 }
 .text-medW{
@@ -46,25 +94,25 @@
 }
 
 .DashboardGrid-inner::-webkit-scrollbar {
-  width: 10px;
-  background-color: #6e2121;
+  width: 6px;
+  background-color: #ffffff00;
 }
 .DashboardGrid-inner::-webkit-scrollbar-thumb {
-  background-color: #fb0000;
+  background-color: #938d8d;
   border-radius: 10px;
 }
 .DashboardGrid-inner::-webkit-scrollbar-track {
-  background-color: #21216e;
+  background-color: #ffffff00;
 }
 .DashboardGrid-inner::-webkit-scrollbar-thumb:hover {
-  background-color: #ff0000;
+  background-color: #938d8d;
 }
 .DashboardGrid-inner::-webkit-scrollbar-thumb:active {
-  background-color: #ff0000;
+  background-color: #938d8d;
 }
 .DashboardGrid-inner::-webkit-scrollbar-thumb:window-inactive {
-  background-color: #ff0000;
+  background-color: #938d8d;
 }
 .DashboardGrid-inner::-webkit-scrollbar-thumb:horizontal {
-  background-color: #ff0000;
+  background-color: #938d8d;
 }
